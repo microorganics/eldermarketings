@@ -32,17 +32,6 @@ async function optimizeSingleImage(imagePath) {
         .toFile(outputPath);
     }
     
-    // Create WebP version
-    const webpPath = path.join(
-      outputDir,
-      `${baseName}.webp`
-    );
-    
-    console.log(`Creating WebP image: ${webpPath}`);
-    await sharp(imagePath)
-      .webp({ quality: 85 })
-      .toFile(webpPath);
-      
     // Create size-specific WebP versions
     for (const size of RESPONSIVE_SIZES) {
       const sizedWebpPath = path.join(
@@ -57,17 +46,6 @@ async function optimizeSingleImage(imagePath) {
         .toFile(sizedWebpPath);
     }
     
-    // Create AVIF version
-    const avifPath = path.join(
-      outputDir,
-      `${baseName}.avif`
-    );
-    
-    console.log(`Creating AVIF image: ${avifPath}`);
-    await sharp(imagePath)
-      .avif({ quality: 80 })
-      .toFile(avifPath);
-      
     // Create size-specific AVIF versions
     for (const size of RESPONSIVE_SIZES) {
       const sizedAvifPath = path.join(
@@ -84,12 +62,12 @@ async function optimizeSingleImage(imagePath) {
     
     console.log('Image optimization complete!');
     
-    // Print size comparison
+    // Print size comparison (800px variants)
     const originalSize = fs.statSync(imagePath).size;
-    const webpSize = fs.statSync(webpPath).size;
-    const avifSize = fs.statSync(avifPath).size;
+    const webpSize = fs.statSync(path.join(outputDir, `${baseName}-800.webp`)).size;
+    const avifSize = fs.statSync(path.join(outputDir, `${baseName}-800.avif`)).size;
     
-    console.log('\nSize comparison:');
+    console.log('\nSize comparison (800px):');
     console.log(`Original: ${formatBytes(originalSize)}`);
     console.log(`WebP: ${formatBytes(webpSize)} (${Math.round((1 - webpSize/originalSize) * 100)}% smaller)`);
     console.log(`AVIF: ${formatBytes(avifSize)} (${Math.round((1 - avifSize/originalSize) * 100)}% smaller)`);

@@ -24,7 +24,7 @@ const RESPONSIVE_SIZES = [480, 800, 1400];
 
 // Skip patterns for already processed images
 const SKIP_PATTERNS = [
-  /-\d+\.(jpg|jpeg|png|webp)$/i,  // Skip files with -480, -800, -1400
+  /-(480|800|1400)\.(jpg|jpeg|png|webp)$/i,  // Skip generated -480, -800, -1400 variants
   /\.(webp|avif)$/i               // Skip already converted WebP/AVIF files
 ];
 
@@ -81,16 +81,6 @@ async function processImages(directory) {
               .toFile(outputPath);
           }
           
-          // Create WebP versions - both standard and size-specific
-          const webpPath = path.join(
-            outputDir,
-            `${baseName}.webp`
-          );
-          
-          await sharp(entryPath)
-            .webp({ quality: 85 })
-            .toFile(webpPath);
-          
           // Create size-specific WebP versions for responsive images
           for (const size of RESPONSIVE_SIZES) {
             const sizedWebpPath = path.join(
@@ -104,16 +94,6 @@ async function processImages(directory) {
               .toFile(sizedWebpPath);
           }
           
-          // Create AVIF versions - both standard and size-specific
-          const avifPath = path.join(
-            outputDir,
-            `${baseName}.avif`
-          );
-          
-          await sharp(entryPath)
-            .avif({ quality: 80 })
-            .toFile(avifPath);
-            
           // Create size-specific AVIF versions for responsive images
           for (const size of RESPONSIVE_SIZES) {
             const sizedAvifPath = path.join(
@@ -166,7 +146,7 @@ async function processImages(directory) {
         try {
           // Check that optimized files exist before deleting original
           const mainSizeFile = path.join(img.outputDir, `${img.baseName}-800${img.ext}`);
-          const webpFile = path.join(img.outputDir, `${img.baseName}.webp`);
+          const webpFile = path.join(img.outputDir, `${img.baseName}-800.webp`);
           
           if (fs.existsSync(mainSizeFile) && fs.existsSync(webpFile)) {
             fs.unlinkSync(img.path);
