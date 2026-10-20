@@ -47,7 +47,7 @@
       "name": "Bacider",
       "slug": "bacider",
       "category": "Syrup",
-      "price": "39.38",
+      "price": "59.00",
       "image": "/images/products/bacider.png",
       "description": "Bacillus Clausii Oral Suspension - Feel good inside with natural intestinal microflora",
       "features": [
@@ -64,7 +64,7 @@
       "name": "Becloder NC",
       "slug": "becloder-nc",
       "category": "Ointment",
-      "price": "70.31",
+      "price": "75.00",
       "image": "/images/products/becloder-nc.png",
       "description": "Beclomethasone Dipropionate 0.025% Clotrimazole 1.00% & Neomycin Sulphate 0.50% Cream",
       "features": [
@@ -80,7 +80,7 @@
       "name": "Belvita Drops",
       "slug": "belvita-drops",
       "category": "Syrup",
-      "price": "84.53",
+      "price": "96.00",
       "image": "/images/products/belvita-drops.png",
       "description": "Multivitamin, Multimineral & Amino Acids Drops - GREATEST FITNESS FORMULA FOR EVERY CHILD",
       "features": [
@@ -92,6 +92,20 @@
         "Helps overcome nutritional deficiency",
         "26 vitamins including essential Vitamin A, B, C, D & E",
         "Natural Strawberry Flavour"
+      ]
+    },
+    {
+      "name": "Belvita Powder",
+      "slug": "belvita-powder",
+      "category": "Powder",
+      "price": "325.00",
+      "image": "/images/products/belvita-powder.png",
+      "description": "Protein Powder with DHA - Builds Immunity, Promotes Growth",
+      "features": [
+        "Powder with DHA",
+        "Builds immunity and promotes growth",
+        "Protein powder nutritional supplement",
+        "Pack: 200 gm"
       ]
     },
     {
@@ -110,10 +124,37 @@
       ]
     },
     {
+      "name": "Carider-PLUS Syrup",
+      "slug": "carider-plus-syrup",
+      "category": "Syrup",
+      "price": "287.00",
+      "image": "/images/products/carider-plus-syrup.png",
+      "description": "Enriched with extract of Papaya Leaves, Giloy, Tulsi & other important herbs",
+      "features": [
+        "Increase your blood platelet count",
+        "Herbal syrup with papaya leaf, giloy and tulsi extract",
+        "Pack: 200 ml"
+      ]
+    },
+    {
+      "name": "Carider-PLUS Tablets",
+      "slug": "carider-plus-tablet",
+      "category": "Tablet",
+      "price": "348.00",
+      "image": "/images/products/carider-plus-tablet.png",
+      "description": "Carica papaya leaf extract 1100mg + Tinospora cordifolia (Giloy) extract 400mg + Goat Milk Powder 100mg Tablets",
+      "features": [
+        "Increase your blood platelet count",
+        "Carica papaya leaf extract with Giloy and goat milk powder",
+        "Pack: 10 x 10 tablets",
+        "Storage: cool, dry and dark place below 25°C"
+      ]
+    },
+    {
       "name": "Ceepeone SB",
       "slug": "ceepeone-sb",
       "category": "Injection",
-      "price": "196.88",
+      "price": "208.00",
       "image": "/images/products/ceepeone-sb.png",
       "description": "Cefoperazone 1000mg + Sulbactam 500mg Injection - Terminate the entry of Critical Infections",
       "features": [
@@ -129,7 +170,7 @@
       "name": "Ceetzo 1g",
       "slug": "ceetzo-1g",
       "category": "Injection",
-      "price": "66.64",
+      "price": "67.00",
       "image": "/images/products/ceetzo-1g.png",
       "description": "Cefotaxime 1 g injection — powerful stroke against typical target. Effective in treating severe infections including pneumonia, meningitis, and other serious bacterial infections.",
       "features": [
@@ -143,7 +184,7 @@
       "name": "Ceetzo SB 1.5",
       "slug": "ceetzo-sb-1-5",
       "category": "Injection",
-      "price": "127.50",
+      "price": "136.00",
       "image": "/images/products/ceetzo-sb-1-5.png",
       "description": "Ceftriaxone 1000mg & Sulbactam 500mg for Injection - Maximise protection against ESBL producing bacteria",
       "features": [
@@ -207,7 +248,7 @@
       "name": "Cefi-Pex O",
       "slug": "cefi-pex-o",
       "category": "Tablet",
-      "price": "168.00",
+      "price": "225.00",
       "image": "/images/products/cefi-pex-o.png",
       "description": "Cefixime 200 mg + Ofloxacin 200 mg tablet — all-round multi-action antibacterial.",
       "features": [
@@ -296,6 +337,19 @@
       ]
     },
     {
+      "name": "Coldkil Suspension",
+      "slug": "coldkil-suspension",
+      "category": "Syrup",
+      "price": "135.00",
+      "image": "/images/products/coldkil-suspension.png",
+      "description": "Paracetamol IP 250 mg, Chlorpheniramine Maleate IP 2 mg, Phenylephrine HCl IP 5 mg per 5 ml Suspension",
+      "features": [
+        "Relieves the symptoms of colds and flu",
+        "Includes headache and feverishness (high temperature)",
+        "Pack: 60 ml"
+      ]
+    },
+    {
       "name": "Cortider 6",
       "slug": "cortider-6",
       "category": "Tablet",
@@ -331,7 +385,7 @@
       "name": "Cypoder",
       "slug": "cypoder",
       "category": "Syrup",
-      "price": "126.56",
+      "price": "136.00",
       "image": "/images/products/cypoder.png",
       "description": "Cyproheptadine HCl 2mg + Tricholine Citrate 275mg + Sorbitol Oral Syrup - Appetite Booster",
       "features": [
@@ -349,7 +403,7 @@
       "name": "Dicloder AQ",
       "slug": "dicloder-aq",
       "category": "Injection",
-      "price": "27.19",
+      "price": "29.50",
       "image": "/images/products/dicloder-aq.png",
       "description": "Diclofenac Injection IP - Take pain away from life",
       "features": [
@@ -380,10 +434,23 @@
       ]
     },
     {
+      "name": "Dicloder-S",
+      "slug": "dicloder-s",
+      "category": "Tablet",
+      "price": "112.00",
+      "image": "/images/products/dicloder-s.png",
+      "description": "Diclofenac Potassium 50 mg + Serratiopeptidase 10 mg Tablets",
+      "features": [
+        "Take the pain away from life",
+        "Pain and inflammation relief",
+        "Pack: 10 x 10 tablets"
+      ]
+    },
+    {
       "name": "Doxder LB",
       "slug": "doxder-lb",
       "category": "Capsule",
-      "price": "98.44",
+      "price": "105.00",
       "image": "/images/products/doxder-lb.png",
       "description": "Doxycycline Hcl 100 mg + Lactic acid bacillus 5 billion Spores - Deadly weapon against infection",
       "features": [
@@ -401,7 +468,7 @@
       "name": "Elbela M",
       "slug": "elbela-m",
       "category": "Tablet",
-      "price": "164.06",
+      "price": "175.00",
       "image": "/images/products/elbela-m.png",
       "description": "Bilastine 20mg + Montelukast 10mg - Faster and Powerful allergy relief",
       "features": [
@@ -432,7 +499,7 @@
       "name": "Eldobrain",
       "slug": "eldobrain",
       "category": "Syrup",
-      "price": "182.81",
+      "price": "192.00",
       "image": "/images/products/eldobrain.png",
       "description": "Ayurvedic Brain Tonic - For Rain of Thoughts in Brain",
       "features": [
@@ -461,7 +528,7 @@
       "name": "Eldomol 120",
       "slug": "eldomol-120",
       "category": "Syrup",
-      "price": "32.81",
+      "price": "36.00",
       "image": "/images/products/eldomol-120.png",
       "description": "Paracetamol Oral Suspension 120mg - For children",
       "features": [
@@ -504,7 +571,7 @@
       "name": "Eldomol M",
       "slug": "eldomol-m",
       "category": "Syrup",
-      "price": "51.56",
+      "price": "56.00",
       "image": "/images/products/eldomol-m.png",
       "description": "Paracetamol 125 mg Mefenamic Acid 50 mg/5ml Suspension - For Pain & FEVER in Children",
       "features": [
@@ -519,7 +586,7 @@
       "name": "Eldomol M DS",
       "slug": "eldomol-m-ds",
       "category": "Syrup",
-      "price": "70.31",
+      "price": "75.00",
       "image": "/images/products/eldomol-m-ds.png",
       "description": "Paracetamol 250 mg Mefenamic Acid 100 mg/5ml Suspension - Double Strength",
       "features": [
@@ -571,6 +638,19 @@
         "Fast relief from heartburn and acidity",
         "Neutralizes excess stomach acid",
         "Relief from GERD and indigestion"
+      ]
+    },
+    {
+      "name": "Eldova-Care",
+      "slug": "eldova-care",
+      "category": "Tablet",
+      "price": "280.00",
+      "image": "/images/products/eldova-care.png",
+      "description": "Myo-Inositol, PABA, L-Arginine, Biotin, Lycopene, Multivitamin & Multimineral with Folate Tablets",
+      "features": [
+        "The unique answer to non-productive questions of reproduction",
+        "Antioxidant, vitamin and mineral support",
+        "Pack: 10 x 1 x 10 tablets"
       ]
     },
     {
@@ -639,7 +719,7 @@
       "name": "Elfexozin M",
       "slug": "elfexozin-m",
       "category": "Tablet",
-      "price": "154.69",
+      "price": "165.00",
       "image": "/images/products/elfexozin-m.png",
       "description": "Montelukast 10mg + Fexofenadine 120mg Tablet - Smart way to tackle allergy",
       "features": [
@@ -686,7 +766,7 @@
       "name": "Elfored XT Syp",
       "slug": "elfored-xt-syp",
       "category": "Syrup",
-      "price": "178.13",
+      "price": "190.00",
       "image": "/images/products/elfored-xt-syp.png",
       "description": "Ferrous ascorbate + folic acid syrup — pediatric formulation for iron deficiency.",
       "features": [
@@ -694,6 +774,19 @@
         "Easy to administer",
         "Complete hematinics",
         "Supports growth and development"
+      ]
+    },
+    {
+      "name": "Elfored-XT Tablets",
+      "slug": "elfored-xt-tablet",
+      "category": "Tablet",
+      "price": "135.00",
+      "image": "/images/products/elfored-xt-tablet.png",
+      "description": "Ferrous Ascorbate, Folic Acid, Methylcobalamin & Zinc Sulphate Tablets",
+      "features": [
+        "For greater iron absorption",
+        "Iron, folic acid, methylcobalamin and zinc in one tablet",
+        "Pack: 10 x 1 x 10 tablets"
       ]
     },
     {
@@ -757,6 +850,46 @@
       ]
     },
     {
+      "name": "Elmocin-CV 1.2g Injection",
+      "slug": "elmocin-cv-injection",
+      "category": "Injection",
+      "price": "152.00",
+      "image": "/images/products/elmocin-cv-injection.png",
+      "description": "Amoxicillin 1000 mg + Potassium Clavulanate 200 mg for Injection I.P.",
+      "features": [
+        "Perfect balance of safety and efficacy",
+        "For I.V. use only",
+        "Pack: 1.2 gm vial",
+        "Manufactured at a WHO-GMP certified unit"
+      ]
+    },
+    {
+      "name": "Elmocin-CV 375",
+      "slug": "elmocin-cv-375",
+      "category": "Tablet",
+      "price": "201.00",
+      "image": "/images/products/elmocin-cv-375.png",
+      "description": "Amoxicillin 250 mg + Potassium Clavulanate 125 mg Tablets - For High Clinical Efficacy & Safety",
+      "features": [
+        "For high clinical efficacy and safety",
+        "Amoxicillin with clavulanate for resistant infections",
+        "Pack: 10 x 1 x 10 tablets"
+      ]
+    },
+    {
+      "name": "Elmozid-1000",
+      "slug": "elmozid-1000",
+      "category": "Injection",
+      "price": "244.00",
+      "image": "/images/products/elmozid-1000.png",
+      "description": "Ceftazidime for Injection I.P. 1000 mg",
+      "features": [
+        "Clears all hurdles in treating tough infections",
+        "For I.M./I.V. use only",
+        "Pack: 1000 mg vial"
+      ]
+    },
+    {
       "name": "Elogene Gel",
       "slug": "elogene-gel",
       "category": "Syrup",
@@ -776,7 +909,7 @@
       "name": "Elopreg-M",
       "slug": "elopreg-m",
       "category": "Capsule",
-      "price": "181.00",
+      "price": "178.00",
       "image": "/images/products/elopreg-m.png",
       "description": "Pregabalin 75 mg & Methylcobalamin 750 mcg Capsules",
       "features": [
@@ -787,10 +920,24 @@
       ]
     },
     {
+      "name": "Elozyme",
+      "slug": "elozyme",
+      "category": "Syrup",
+      "price": "134.00",
+      "image": "/images/products/elozyme.png",
+      "description": "Digestive Enzyme with Pineapple Flavour & Liver Tonic - Boost Up Digestive System... Naturally",
+      "features": [
+        "Boost up digestive system naturally",
+        "Digestive enzyme with liver tonic",
+        "Pleasant pineapple flavour",
+        "Pack: 225 ml"
+      ]
+    },
+    {
       "name": "Elpico",
       "slug": "elpico",
       "category": "Syrup",
-      "price": "91.88",
+      "price": "98.00",
       "image": "/images/products/elpico.png",
       "description": "Sodium Picosulphate 5 mg/5 ml Oral Suspension - Safe, Effective & Fast Relief from Constipation",
       "features": [
@@ -820,7 +967,7 @@
       "name": "Elprogut",
       "slug": "elprogut-syp",
       "category": "Dry Syrup",
-      "price": "129.02",
+      "price": "145.00",
       "image": "/images/products/elprogut-syp.png",
       "description": "Prebiotic & Probiotic with Zinc Gluconate Oral Powder for Reconstruction",
       "features": [
@@ -863,10 +1010,36 @@
       ]
     },
     {
+      "name": "Eluzole Cream",
+      "slug": "eluzole-cream",
+      "category": "Cream",
+      "price": "155.00",
+      "image": "/images/products/eluzole-cream.png",
+      "description": "Luliconazole Cream IP 1% w/w - The Novel Approach To Treat Fungal Infections",
+      "features": [
+        "The novel approach to treat fungal infections",
+        "Topical antifungal cream",
+        "Pack: 20 gm"
+      ]
+    },
+    {
+      "name": "Eluzole Soap",
+      "slug": "eluzole-soap",
+      "category": "Soap",
+      "price": "138.00",
+      "image": "/images/products/eluzole-soap.png",
+      "description": "Luliconazole Soap 1% w/w - The Novel Approach To Treat Fungal Infections",
+      "features": [
+        "The novel approach to treat fungal infections",
+        "Antifungal medicated soap",
+        "Pack: 75 gm"
+      ]
+    },
+    {
       "name": "Empoder M",
       "slug": "empoder-m",
       "category": "Tablet",
-      "price": "351.56",
+      "price": "275.00",
       "image": "/images/products/empoder-m.png",
       "description": "Empagliflozin 12.5 mg + Metformin 500 mg - For Type 2 Diabetes Management",
       "features": [
@@ -928,7 +1101,7 @@
       "name": "Farofest 200",
       "slug": "farofest-200",
       "category": "Tablet",
-      "price": "604.69",
+      "price": "630.00",
       "image": "/images/products/farofest-200.png",
       "description": "Faropenem 200 mg tablets — easy solution to end infections with broad coverage.",
       "features": [
@@ -936,6 +1109,31 @@
         "Broad spectrum activity",
         "Good safety profile",
         "Effective against resistant strains"
+      ]
+    },
+    {
+      "name": "Fertider-M",
+      "slug": "fertider-m",
+      "category": "Tablet",
+      "price": "270.00",
+      "image": "/images/products/fertider-m.png",
+      "description": "Coenzyme Q10, Lycopene, Omega 3 Fatty Acids, Wheat Germ Oil, Calcium Ascorbate, Vitamins, Minerals & Zinc Tablets",
+      "features": [
+        "Boost up male health",
+        "Antioxidant, omega-3, vitamin and mineral support",
+        "Pack: 10 x 1 x 10 tablets"
+      ]
+    },
+    {
+      "name": "Gabel-NT",
+      "slug": "gabel-nt",
+      "category": "Tablet",
+      "price": "280.00",
+      "image": "/images/products/gabel-nt.png",
+      "description": "Gabapentin 400 mg & Nortriptyline 10 mg Tablets",
+      "features": [
+        "For patients suffering from neuropathic pain",
+        "Pack: 10 x 10 tablets"
       ]
     },
     {
@@ -956,6 +1154,33 @@
       ]
     },
     {
+      "name": "Gestoder-PG 200",
+      "slug": "gestoder-pg-200",
+      "category": "Softgel Capsule",
+      "price": "185.00",
+      "image": "/images/products/gestoder-pg-200.png",
+      "description": "Natural Micronised Progesterone Soft Gelatin Capsules 200 mg",
+      "features": [
+        "For oral / vaginal / rectal use",
+        "Natural micronised progesterone 200 mg",
+        "Pack: 10 x 1 x 10 softgel capsules",
+        "Store below 25°C, protected from light and moisture"
+      ]
+    },
+    {
+      "name": "Glutoder Cream",
+      "slug": "glutoder-cream",
+      "category": "Cream",
+      "price": "277.00",
+      "image": "/images/products/glutoder-cream.png",
+      "description": "Kojic Acid, Arbutin, Liquorice Extract, Tetrahydrocurcumin, Pine Bark Extract, Glycolic Acid, Glutathione & Wheat Germ Oil Cream",
+      "features": [
+        "For moisturizing and glowing skin",
+        "Depigmentation and skin brightening formula",
+        "Pack: 30 gm"
+      ]
+    },
+    {
       "name": "Glutoder Soap",
       "slug": "glutoder",
       "category": "Soap",
@@ -967,6 +1192,19 @@
         "Kojic acid reduces pigmentation and dark spots",
         "Glutathione provides antioxidant skin benefits",
         "Shea butter and glycerine moisturize the skin"
+      ]
+    },
+    {
+      "name": "Glutoder Tablets",
+      "slug": "glutoder-tablet",
+      "category": "Tablet",
+      "price": "750.00",
+      "image": "/images/products/glutoder-tablet.png",
+      "description": "Glutathione, Vitamin C, L-Cysteine, Astaxanthin Tablets",
+      "features": [
+        "For moisturizing and glowing skin",
+        "Glutathione with vitamin C and astaxanthin",
+        "Pack: 1 x 15 tablets"
       ]
     },
     {
@@ -983,6 +1221,18 @@
         "Addition of Glimepiride reduces need for exogenous insulin",
         "Individually unmatched, Together Unbeatable",
         "Treats Metabolic Syndrome, Type II diabetes"
+      ]
+    },
+    {
+      "name": "Glyzer-M1",
+      "slug": "glyzer-m1",
+      "category": "Tablet",
+      "price": "92.00",
+      "image": "/images/products/glyzer-m1.png",
+      "description": "Glimepiride 1 mg + Metformin Hydrochloride 500 mg Tablets",
+      "features": [
+        "Individually unmatched, together unbeatable",
+        "Pack: 10 x 10 tablets"
       ]
     },
     {
@@ -1014,6 +1264,30 @@
       ]
     },
     {
+      "name": "Glyzer-PM1",
+      "slug": "glyzer-pm1",
+      "category": "Tablet",
+      "price": "115.00",
+      "image": "/images/products/glyzer-pm1.png",
+      "description": "Glimepiride 1 mg + Pioglitazone 15 mg + Metformin Hydrochloride 500 mg (SR) Tablets",
+      "features": [
+        "Control the diabetes with pride",
+        "Pack: 10 x 10 tablets"
+      ]
+    },
+    {
+      "name": "Glyzer-PM2",
+      "slug": "glyzer-pm2",
+      "category": "Tablet",
+      "price": "130.00",
+      "image": "/images/products/glyzer-pm2.png",
+      "description": "Glimepiride 2 mg + Pioglitazone 15 mg + Metformin Hydrochloride 500 mg (SR) Tablets",
+      "features": [
+        "Control the diabetes with pride",
+        "Pack: 10 x 10 tablets"
+      ]
+    },
+    {
       "name": "Grovital",
       "slug": "grovital",
       "category": "Softgel Capsule",
@@ -1027,6 +1301,46 @@
         "Nutritional supplement in pregnancy & lactation",
         "Powered with Natural Ginseng",
         "Daily health supplement with vitamins, minerals, ginseng"
+      ]
+    },
+    {
+      "name": "Hair Soon",
+      "slug": "hair-soon",
+      "category": "Tablet",
+      "price": "460.00",
+      "image": "/images/products/hair-soon.png",
+      "description": "Biotin, Niacinamide, Minerals and Amino Acids Tablets",
+      "features": [
+        "Revolution in hair vitamins",
+        "Scientifically formulated for performance",
+        "Pack: 30 tablets"
+      ]
+    },
+    {
+      "name": "Immuder",
+      "slug": "immuder",
+      "category": "Syrup",
+      "price": "255.00",
+      "image": "/images/products/immuder.png",
+      "description": "Ayurvedic Health & Immune Booster Tonic",
+      "features": [
+        "The natural immune booster",
+        "Power of 15 herbs",
+        "Rich in vitamin C",
+        "Maintains respiratory health",
+        "Pack: 200 ml"
+      ]
+    },
+    {
+      "name": "IT-DERM",
+      "slug": "it-derm",
+      "category": "Cream",
+      "price": "89.00",
+      "image": "/images/products/it-derm.png",
+      "description": "Ofloxacin IP 0.75%, Ornidazole IP 2.0%, Itraconazole IP 1.0% & Clobetasol Propionate Cream",
+      "features": [
+        "The grand master of mixed skin infection",
+        "Pack: 15 gm"
       ]
     },
     {
@@ -1083,7 +1397,7 @@
       "name": "Lizoder 600",
       "slug": "lizoder-600",
       "category": "Tablet",
-      "price": "373.13",
+      "price": "398.00",
       "image": "/images/products/lizoder-600.png",
       "description": "Linezolid 600 mg Tablets - Excellent choice against Gram +ve infections",
       "features": [
@@ -1114,10 +1428,35 @@
       ]
     },
     {
+      "name": "Lycopearl Syrup",
+      "slug": "lycopearl-syrup",
+      "category": "Syrup",
+      "price": "185.00",
+      "image": "/images/products/lycopearl-syrup.png",
+      "description": "Lycopene, Multivitamin & Multimineral Syrup",
+      "features": [
+        "Natural way to nourish a healthier life",
+        "Pack: 200 ml"
+      ]
+    },
+    {
+      "name": "Merofly-1gm",
+      "slug": "merofly-1gm",
+      "category": "Injection",
+      "price": "1250.00",
+      "image": "/images/products/merofly-1gm.png",
+      "description": "Meropenem Injection I.P. 1000 mg",
+      "features": [
+        "Destroy the destructive pathogens",
+        "Pack: 1 gm vial",
+        "Store protected from moisture"
+      ]
+    },
+    {
       "name": "Metsim O",
       "slug": "metsim-o",
       "category": "Syrup",
-      "price": "91.88",
+      "price": "98.00",
       "image": "/images/products/metsim-o.png",
       "description": "Ofloxacin 50mg + Metronidazole 120mg & Simethicone 10mg Suspension",
       "features": [
@@ -1134,7 +1473,7 @@
       "name": "Micader-500",
       "slug": "micader-500",
       "category": "Injection",
-      "price": "107.81",
+      "price": "115.00",
       "image": "/images/products/micader-500.png",
       "description": "Amikacin 500mg Injection - Champion for Treating Bacterial Infection",
       "features": [
@@ -1151,7 +1490,7 @@
       "name": "Mupicon",
       "slug": "mupicon",
       "category": "Ointment",
-      "price": "105.94",
+      "price": "108.00",
       "image": "/images/products/mupicon.png",
       "description": "Mupirocin 2% w/w Ointment - Bio Protection from Variety of Skin Infections",
       "features": [
@@ -1196,6 +1535,30 @@
       ]
     },
     {
+      "name": "Nicoder 5",
+      "slug": "nicoder-5",
+      "category": "Tablet",
+      "price": "175.00",
+      "image": "/images/products/nicoder-5.png",
+      "description": "Nicorandil Tablets 5 mg",
+      "features": [
+        "Shortens the anginal run",
+        "Pack: 10 x 10 tablets"
+      ]
+    },
+    {
+      "name": "Nimovex-P",
+      "slug": "nimovex-p",
+      "category": "Tablet",
+      "price": "65.00",
+      "image": "/images/products/nimovex-p.png",
+      "description": "Nimesulide 100 mg + Paracetamol 325 mg Tablets",
+      "features": [
+        "A combination that ensures mobility",
+        "Pack: 20 x 10 tablets"
+      ]
+    },
+    {
       "name": "Offder",
       "slug": "offder",
       "category": "Eye Drop",
@@ -1212,10 +1575,22 @@
       ]
     },
     {
+      "name": "Offder-D",
+      "slug": "offder-d",
+      "category": "Eye Drop",
+      "price": "60.00",
+      "image": "/images/products/offder-d.png",
+      "description": "Ofloxacin 0.3% + Dexamethasone 0.1% Eye Drops",
+      "features": [
+        "Fix the eye infections caused by bacteria",
+        "Pack: 10 ml"
+      ]
+    },
+    {
       "name": "Ondue 4",
       "slug": "ondue-4",
       "category": "Tablet",
-      "price": "55.31",
+      "price": "58.00",
       "image": "/images/products/ondue-4.png",
       "description": "Ondansetron Orally Disintegrating 4mg Tablet - Sure & safe control of Nausea & Vomiting",
       "features": [
@@ -1229,10 +1604,34 @@
       ]
     },
     {
+      "name": "Ondue Drops",
+      "slug": "ondue-drops",
+      "category": "Drops",
+      "price": "42.00",
+      "image": "/images/products/ondue-drops.png",
+      "description": "Ondansetron IP 2 mg/5 ml Oral Solution Drops",
+      "features": [
+        "For sure and safe control of distressing nausea and vomiting",
+        "Pack: 30 ml"
+      ]
+    },
+    {
+      "name": "Ondue Injection",
+      "slug": "ondue-injection",
+      "category": "Injection",
+      "price": "18.00",
+      "image": "/images/products/ondue-injection.png",
+      "description": "Ondansetron 2 mg Injection",
+      "features": [
+        "For sure and safe control of distressing nausea and vomiting",
+        "Pack: 2 ml"
+      ]
+    },
+    {
       "name": "Pansearch 40",
       "slug": "pansearch-40",
       "category": "Tablet",
-      "price": "84.38",
+      "price": "110.00",
       "image": "/images/products/pansearch-40.png",
       "description": "Pantoprazole 40mg Tablets - Gastro-resistant tablets",
       "features": [
@@ -1263,7 +1662,7 @@
       "name": "Pansearch IV",
       "slug": "pansearch-iv",
       "category": "Injection",
-      "price": "52.50",
+      "price": "54.00",
       "image": "/images/products/pansearch-iv.png",
       "description": "Pantoprazole Injection - Injectable formulation",
       "features": [
@@ -1285,6 +1684,18 @@
         "Relief from GERD and acid peptic disorders",
         "Reduces bloating, nausea and regurgitation",
         "Sustained release levosulpiride for lasting relief"
+      ]
+    },
+    {
+      "name": "Permider Lotion",
+      "slug": "permider-lotion",
+      "category": "Lotion",
+      "price": "78.00",
+      "image": "/images/products/permider-lotion.png",
+      "description": "Permethrin BP 5.00% w/v & Cetrimide IP 0.01% w/v Lotion",
+      "features": [
+        "Powerful treatment of scabies",
+        "Pack: 60 ml"
       ]
     },
     {
@@ -1319,7 +1730,7 @@
       "name": "Pex-Pod 200",
       "slug": "pex-pod-200",
       "category": "Tablet",
-      "price": "201.56",
+      "price": "201.00",
       "image": "/images/products/pex-pod-200.png",
       "description": "Cefpodoxime 200 mg tablets — established power against tough infection.",
       "features": [
@@ -1362,7 +1773,7 @@
       "name": "Pexorab 20",
       "slug": "pexorab-20",
       "category": "Tablet",
-      "price": "83.44",
+      "price": "90.00",
       "image": "/images/products/pexorab-20.png",
       "description": "Rabeprazole Sodium Tablets IP 20mg - Individual PPI therapy",
       "features": [
@@ -1390,6 +1801,19 @@
       ]
     },
     {
+      "name": "Pexorab-IV",
+      "slug": "pexorab-iv",
+      "category": "Injection",
+      "price": "125.00",
+      "image": "/images/products/pexorab-iv.png",
+      "description": "Rabeprazole Sodium (Sterile) I.P. 20 mg Injection",
+      "features": [
+        "Instant relief in burning acidity",
+        "Pack: 20 mg vial",
+        "Store below 25°C, protected from light and moisture"
+      ]
+    },
+    {
       "name": "Pexorab-LSR",
       "slug": "pexorab-lsr",
       "category": "Capsule",
@@ -1407,7 +1831,7 @@
       "name": "Pexoran P",
       "slug": "pexoran-p",
       "category": "Tablet",
-      "price": "90.94",
+      "price": "60.94",
       "image": "/images/products/pexoran-p.png",
       "description": "Aceclofenac 100mg + Paracetamol 325mg Tablet - Targeted Approach for Superior Pain Relief",
       "features": [
@@ -1493,6 +1917,18 @@
       ]
     },
     {
+      "name": "Rangicare-500",
+      "slug": "rangicare-500",
+      "category": "Tablet",
+      "price": "230.00",
+      "image": "/images/products/rangicare-500.png",
+      "description": "Ranolazine Extended Release Tablets 500 mg",
+      "features": [
+        "In the management of chronic stable angina",
+        "Pack: 10 x 10 tablets"
+      ]
+    },
+    {
       "name": "Sreeekal 500",
       "slug": "sreeekal-500",
       "category": "Tablet",
@@ -1524,7 +1960,7 @@
       "name": "Sreekal",
       "slug": "sreekal",
       "category": "Syrup",
-      "price": "154.69",
+      "price": "168.00",
       "image": "/images/products/sreekal.png",
       "description": "Triple calcium syrup with essential minerals and lysine — helps kids grow.",
       "features": [
@@ -1608,7 +2044,7 @@
       "name": "Telmored 40",
       "slug": "telmored-40",
       "category": "Tablet",
-      "price": "56.25",
+      "price": "72.66",
       "image": "/images/products/telmored-40.png",
       "description": "Telmisartan 40 mg tablets — for hypertension management and cardiac asset reduction.",
       "features": [
@@ -1622,7 +2058,7 @@
       "name": "Telmored AM",
       "slug": "telmored-am",
       "category": "Tablet",
-      "price": "86.25",
+      "price": "93.00",
       "image": "/images/products/telmored-am.png",
       "description": "Telmisartan + amlodipine tablets — in management of hypertension and cardiac asset reduction.",
       "features": [
@@ -1636,7 +2072,7 @@
       "name": "Ursolder 300",
       "slug": "ursolder-300",
       "category": "Tablet",
-      "price": "314.06",
+      "price": "490.00",
       "image": "/images/products/ursolder-300.png",
       "description": "Ursodeoxycholic acid 300 mg — checkmate the cholestatic liver disorders.",
       "features": [
@@ -1647,10 +2083,45 @@
       ]
     },
     {
+      "name": "Washodent",
+      "slug": "washodent",
+      "category": "Mouthwash",
+      "price": "175.00",
+      "image": "/images/products/washodent.png",
+      "description": "Chlorhexidine Mouthwash IP 0.2% w/v",
+      "features": [
+        "For better smiles and fresher breath",
+        "Pack: 100 ml"
+      ]
+    },
+    {
+      "name": "Wellbion Syrup",
+      "slug": "wellbion-syrup",
+      "category": "Syrup",
+      "price": "172.00",
+      "image": "/images/products/wellbion-syrup.png",
+      "description": "Vitamin B-Complex with L-Lysine Syrup",
+      "features": [
+        "A complete package for vital nutrients",
+        "Pack: 200 ml"
+      ]
+    },
+    {
+      "name": "Wellbion-12",
+      "slug": "wellbion-12",
+      "category": "Injection",
+      "price": "34.00",
+      "image": "/images/products/wellbion-12.png",
+      "description": "Combination Pack of Vitamin C, Vitamin B12, Folic Acid & Niacinamide Injection",
+      "features": [
+        "Attain maximum relief during neuropathy pain"
+      ]
+    },
+    {
       "name": "Wormider Plus",
       "slug": "wormider-plus",
       "category": "Tablet",
-      "price": "23.44",
+      "price": "25.00",
       "image": "/images/products/wormider-plus.png",
       "description": "Albendazole 400 mg + Ivermectin 12 mg Tablet - End The Worm Infection",
       "features": [
@@ -1674,7 +2145,12 @@
     "Dry Syrup",
     "Eye Drop",
     "Shampoo",
-    "Soap"
+    "Soap",
+    "Cream",
+    "Lotion",
+    "Powder",
+    "Mouthwash",
+    "Drops"
   ],
   "defaultFeatures": [
     "High quality formulation",

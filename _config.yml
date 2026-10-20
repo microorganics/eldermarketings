@@ -28,6 +28,7 @@ exclude:
 
 include:
   - _cloudcannon # This exposes the live editing data to CloudCannon
+  - _headers # Cloudflare Pages response headers
 
 # The rest of this array structure will be
 # populated by the bookshop-array-structures plugin.
