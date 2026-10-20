@@ -1,0 +1,1418 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <title>Elder Pharmaceuticals | Elder</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      
+      <!-- Preconnect to critical domains -->
+      <link rel="preconnect" href="https://www.googletagmanager.com">
+      <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+      
+      <!-- Resource hints for other pages -->
+      
+        <link rel="prefetch" href="/products/">
+        <link rel="prefetch" href="/about/">
+        <link rel="prefetch" href="/contact/">
+      
+      
+      
+      
+      
+   <meta name="description" content="Elder - A leading global pharmaceutical company manufacturing high-quality drug formulations across diverse therapeutic segments. Our innovative products combine effectiveness, affordability, and safety to deliver superior healthcare solutions for patients worldwide.">
+   <meta property="og:description" content="Elder - A leading global pharmaceutical company manufacturing high-quality drug formulations across diverse therapeutic segments. Our innovative products combine effectiveness, affordability, and safety to deliver superior healthcare solutions for patients worldwide." />
+
+
+      
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@eldermarketings" />
+      
+         <meta property="og:title" content="Elder" />
+         <meta property="og:type" content="website" />
+         <meta property="og:image" content="https://eldermarketings.com/images/feature/feature-hero.png" />
+         <meta name="twitter:creator" content="@eldermarketings" />
+         <meta name="twitter:title" content="Elder" />
+         
+            <meta name="twitter:image" content="https://eldermarketings.com/images/feature/feature-hero-two.png" />
+         
+      
+
+      
+      
+         <link rel="canonical" href="https://eldermarketings.com/" />
+      <!-- Critical CSS -->
+      <link href="/vendor/bootstrap/bootstrap.min.css" rel="stylesheet" defer/>
+      <link href="/css/theme.css" rel="stylesheet" defer/>
+      
+      <!-- Non-critical CSS with preload for important assets -->
+      <link rel="preload" href="/fonts/sora-v10-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+      <link rel="preload" href="/fonts/sora-v10-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+      
+      <link href="/vendor/phosphor-icons/css/phosphor.css" rel="stylesheet" media="print" onload="this.media='all'" defer/>
+      <link href="/vendor/magnific-popup/magnific-popup.css" rel="stylesheet" media="print" onload="this.media='all'" defer/>
+      <link rel="stylesheet" href="/css/custom.css" defer/>
+      <link rel="stylesheet" href="/css/responsive-images.css" defer/>
+      <link rel="stylesheet" href="/css/whatsapp-widget.css" defer/>
+      <!-- Contact Conversion Tracking -->
+      <script src="/js/contact-conversion.js" defer></script>
+      <!-- WhatsApp Widget -->
+      <script src="/js/whatsapp-widget.js" defer></script>
+      
+      <!-- Inline critical responsive product images script -->
+      <script>
+      // Function to render product images using the picture element
+      function renderProductImage(container, imageSrc, imageAlt) {
+        // Default to placeholder if no image source provided
+        if (!imageSrc) {
+          container.html('<img src="/images/products/placeholder.png" alt="' + (imageAlt || 'Product Image') + '" class="img-fluid">');
+          return;
+        }
+      
+        // Check if image path has appropriate structure for picture element
+        const imagePathParts = imageSrc.split('.');
+        if (imagePathParts.length < 2) {
+          // Invalid path, use fallback
+          container.html('<img src="' + imageSrc + '" alt="' + (imageAlt || 'Product Image') + '" class="img-fluid" onerror="this.src=\'/images/products/placeholder.png\'">');
+          return;
+        }
+      
+        const imageExt = imagePathParts[imagePathParts.length - 1];
+        const fileName = imageSrc.split('/').pop().split('.')[0];
+        const dirName = imageSrc.substring(0, imageSrc.lastIndexOf(fileName));
+        const imageBase = dirName + fileName + '-';
+        
+        // Build picture element
+        let pictureHtml = '<picture class="responsive-image">';
+        
+        // AVIF format
+        pictureHtml += '<source type="image/avif" ' +
+          'srcset="' + imageBase + '480.avif 480w, ' +
+          imageBase + '800.avif 800w, ' +
+          imageBase + '1400.avif 1400w" ' +
+          'sizes="(max-width: 480px) 480px, (max-width: 800px) 800px, 1400px">';
+        
+        // WebP format
+        pictureHtml += '<source type="image/webp" ' +
+          'srcset="' + imageBase + '480.webp 480w, ' +
+          imageBase + '800.webp 800w, ' +
+          imageBase + '1400.webp 1400w" ' +
+          'sizes="(max-width: 480px) 480px, (max-width: 800px) 800px, 1400px">';
+        
+        // Original format (fallback)
+        pictureHtml += '<img src="' + imageSrc + '" ' +
+          'srcset="' + imageBase + '480.' + imageExt + ' 480w, ' +
+          imageBase + '800.' + imageExt + ' 800w, ' +
+          imageBase + '1400.' + imageExt + ' 1400w" ' +
+          'sizes="(max-width: 480px) 480px, (max-width: 800px) 800px, 1400px" ' +
+          'alt="' + (imageAlt || 'Product Image') + '" ' +
+          'loading="lazy" ' +
+          'decoding="async" ' +
+          'onerror="this.onerror=null; this.srcset=\'\'; this.src=\'/images/products/placeholder.png\'">';
+        
+        pictureHtml += '</picture>';
+        
+        // Insert the picture element into the container
+        container.html(pictureHtml);
+      }
+      </script>
+      
+      <!-- Google Analytics Code -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-LQ75B4DKK2"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-LQ75B4DKK2');
+      </script>
+
+      <!-- Google tag (gtag.js) event - delayed navigation helper -->
+      <script>
+      // Helper function to delay opening a URL until a gtag event is sent.
+      // Call it in response to an action that should navigate to a URL.
+      function gtagSendEvent(url) {
+         var callback = function () {
+            if (typeof url === 'string') {
+               window.location = url;
+            }
+         };
+         gtag('event', 'qualify_lead', {
+            'event_callback': callback,
+            'event_timeout': 2000,
+         });
+         return false;
+      }
+
+      // Function to track contact button conversions
+      function gtag_report_conversion(url) {
+         var callback = function () {
+            if (typeof(url) !== 'undefined') {
+               window.location = url;
+            }
+         };
+         gtag('event', 'conversion', {
+            'send_to': 'G-LQ75B4DKK2',
+            'event_category': 'Contact',
+            'event_action': 'click',
+            'event_label': 'Contact Button',
+            'event_callback': callback,
+            'event_timeout': 2000
+         });
+         return false;
+      }
+      </script>
+ 
+      
+      <!-- Critical CSS for above-the-fold content -->
+      <style>
+        /* Critical CSS to improve page rendering speed */
+        body {display: block; opacity: 1;}
+        img {max-width: 100%; height: auto;}
+        .navbar-brand img {max-height: 50px; width: auto;}
+      </style><link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+      <link rel="icon" href="/images/favicon.png" type="image/png" />
+      <link rel="apple-touch-icon" href="/images/favicon.png" />
+      <!-- Additional favicon formats for better browser support -->
+      <meta name="msapplication-TileImage" content="/images/favicon.png" />
+      <meta name="msapplication-TileColor" content="#002169" />
+      
+      <!-- Schema.org structured data -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Elder",
+        "url": "https://eldermarketings.com",
+        "logo": "https://eldermarketings.com/images/logo.png",
+        "description": "Elder - A global leader in manufacturing high-quality drug formulations across diverse therapeutic segments. Our innovative products combine effectiveness, affordability, and safety to deliver superior healthcare solutions for patients worldwide.",
+        "sameAs": [
+          "https://www.facebook.com/people/Elder-Marketing-and-Research-Private-Limited/61581400721090/",
+          "https://www.linkedin.com/company/elder-pharmaceutical/",
+          "https://www.instagram.com/elder.pharma/"
+        ]
+      }
+      </script>
+   </head>
+   <body>
+      <header><nav
+            class="navbar navbar-expand-lg position-fixed w-100 zindex-dropdown"
+            id="mainnavigationBar"
+         >
+            <div class="container-fluid">
+               <a class="navbar-brand" href="/">
+                  <img src="/images/logo.png" alt="Elder Logo" loading="eager" />
+               </a>
+               <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+               >
+                  <span class="navbar-toggler-default">
+                     <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                     >
+                        <line
+                           x1="3.5"
+                           y1="5.5"
+                           x2="21.5"
+                           y2="5.5"
+                           stroke="#292D32"
+                           stroke-width="3"
+                           stroke-linecap="round"
+                           stroke-linejoin="round"
+                        />
+                        <line
+                           x1="4.5"
+                           y1="12.5"
+                           x2="21.5"
+                           y2="12.5"
+                           stroke="#292D32"
+                           stroke-width="3"
+                           stroke-linecap="round"
+                           stroke-linejoin="round"
+                        />
+                        <line
+                           x1="11.5"
+                           y1="19.5"
+                           x2="21.5"
+                           y2="19.5"
+                           stroke="#292D32"
+                           stroke-width="3"
+                           stroke-linecap="round"
+                           stroke-linejoin="round"
+                        />
+                     </svg>
+                  </span>
+                  <span class="navbar-toggler-toggled">
+                     <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 28 28"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                     >
+                        <path
+                           d="M21.5 6.5L6.5 21.5"
+                           stroke="#404152"
+                           stroke-width="3"
+                           stroke-linecap="round"
+                           stroke-linejoin="round"
+                        />
+                        <path
+                           d="M21.5 21.5L6.5 6.5"
+                           stroke="#404152"
+                           stroke-width="3"
+                           stroke-linecap="round"
+                           stroke-linejoin="round"
+                        />
+                     </svg>
+                  </span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mx-auto mb-20 mb-lg-0">
+                      
+                      
+                        <li class="nav-item">
+                           <a class="nav-link active"
+                              href="/">Home</a>
+                        </li>
+                      
+                      
+                        <li class="nav-item">
+                           <a class="nav-link "
+                              href="/about">About Us</a>
+                        </li>
+                      
+                      
+                        <li class="nav-item">
+                           <a class="nav-link "
+                              href="/products">Products</a>
+                        </li>
+                      
+                      
+                        <li class="nav-item">
+                           <a class="nav-link "
+                              href="/contact">Contact Us</a>
+                        </li>
+                     
+                  </ul>
+               </div>
+               <div class="d-none d-lg-block">
+                  <div class="d-flex align-items-center">
+                     <div class="me-3">
+                        <a href="tel:+918601875910" class="text-decoration-none">
+                           <i class="ph-phone me-1" aria-hidden="true"></i>
+                           <span>(91) 86018 75910</span>
+                        </a>
+                     </div>
+                     <div class="nav-item">
+                        <a href="/contact" class="btn btn-sm btn-links" onclick="return gtag_report_conversion('/contact')"
+                           >Get In Touch</a
+                        >
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </header>
+      
+<!--bookshop-live meta(version="3.0.0" baseurl="" title="Elder Marketings") -->
+<!--bookshop-live name(page.jekyll.html) params(content_blocks=page.content_blocks) context() -->
+<main>
+    <!--bookshop-live name(home/hero/hero.jekyll.html) params(bind=block) context(block=content_blocks[0]) -->
+<section class="hero-two">
+  <div class="hero-two-shape">
+    
+
+
+
+
+
+
+
+
+<picture class="responsive-image">
+  <!-- AVIF format -->
+  <source
+    type="image/avif"
+    srcset="/images/hero/hero-two-shape-480.avif 480w,
+            /images/hero/hero-two-shape-800.avif 800w,
+            /images/hero/hero-two-shape-1400.avif 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- WebP format -->
+  <source
+    type="image/webp"
+    srcset="/images/hero/hero-two-shape-480.webp 480w,
+            /images/hero/hero-two-shape-800.webp 800w,
+            /images/hero/hero-two-shape-1400.webp 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- Original format (fallback) -->
+  <img
+    src="/images/hero/hero-two-shape.png"
+    srcset="/images/hero/hero-two-shape-480.png 480w,
+            /images/hero/hero-two-shape-800.png 800w,
+            /images/hero/hero-two-shape-1400.png 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px"
+    alt="Decorative shape"
+    
+    
+    loading="lazy"
+    decoding="async">
+</picture>
+
+  </div>
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="hero-two-content">
+          <h1 class="mb-4">Quality Healthcare Solutions</h1>
+          <div class="mb-7 w-xxl-80"><p>At Elder, we create high-quality medicines for a healthier world. Our pharmaceutical products help improve lives through effective, affordable, and safe healthcare solutions.</p>
+</div>
+          <div class="">
+            <a href="/about" class="btn btn-primary btn-lg">
+              Learn More
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 d-flex justify-content-center">
+        <div class="hero-two-banner hero-slideshow">
+          <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              
+                <div class="carousel-item active">
+                  <div class="carousel-image-container">
+                    
+
+
+
+
+
+
+
+
+<picture class="responsive-image">
+  <!-- AVIF format -->
+  <source
+    type="image/avif"
+    srcset="/images/hero/hero-pharmacy-smile-480.avif 480w,
+            /images/hero/hero-pharmacy-smile-800.avif 800w,
+            /images/hero/hero-pharmacy-smile-1400.avif 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- WebP format -->
+  <source
+    type="image/webp"
+    srcset="/images/hero/hero-pharmacy-smile-480.webp 480w,
+            /images/hero/hero-pharmacy-smile-800.webp 800w,
+            /images/hero/hero-pharmacy-smile-1400.webp 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- Original format (fallback) -->
+  <img
+    src="/images/hero/hero-pharmacy-smile.jpg"
+    srcset="/images/hero/hero-pharmacy-smile-480.jpg 480w,
+            /images/hero/hero-pharmacy-smile-800.jpg 800w,
+            /images/hero/hero-pharmacy-smile-1400.jpg 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px"
+    alt="Modern healthcare pharmacy"
+    
+    
+    loading="lazy"
+    decoding="async">
+</picture>
+
+                  </div>
+                </div>
+              
+                <div class="carousel-item ">
+                  <div class="carousel-image-container">
+                    
+
+
+
+
+
+
+
+
+<picture class="responsive-image">
+  <!-- AVIF format -->
+  <source
+    type="image/avif"
+    srcset="/images/hero/hero-dr-smiling-480.avif 480w,
+            /images/hero/hero-dr-smiling-800.avif 800w,
+            /images/hero/hero-dr-smiling-1400.avif 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- WebP format -->
+  <source
+    type="image/webp"
+    srcset="/images/hero/hero-dr-smiling-480.webp 480w,
+            /images/hero/hero-dr-smiling-800.webp 800w,
+            /images/hero/hero-dr-smiling-1400.webp 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- Original format (fallback) -->
+  <img
+    src="/images/hero/hero-dr-smiling.jpg"
+    srcset="/images/hero/hero-dr-smiling-480.jpg 480w,
+            /images/hero/hero-dr-smiling-800.jpg 800w,
+            /images/hero/hero-dr-smiling-1400.jpg 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px"
+    alt="Healthcare professional with patient"
+    
+    
+    loading="lazy"
+    decoding="async">
+</picture>
+
+                  </div>
+                </div>
+              
+                <div class="carousel-item ">
+                  <div class="carousel-image-container">
+                    
+
+
+
+
+
+
+
+
+<picture class="responsive-image">
+  <!-- AVIF format -->
+  <source
+    type="image/avif"
+    srcset="/images/hero/hero-old-man-480.avif 480w,
+            /images/hero/hero-old-man-800.avif 800w,
+            /images/hero/hero-old-man-1400.avif 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- WebP format -->
+  <source
+    type="image/webp"
+    srcset="/images/hero/hero-old-man-480.webp 480w,
+            /images/hero/hero-old-man-800.webp 800w,
+            /images/hero/hero-old-man-1400.webp 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- Original format (fallback) -->
+  <img
+    src="/images/hero/hero-old-man.jpg"
+    srcset="/images/hero/hero-old-man-480.jpg 480w,
+            /images/hero/hero-old-man-800.jpg 800w,
+            /images/hero/hero-old-man-1400.jpg 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px"
+    alt="Healthy old man"
+    
+    
+    loading="lazy"
+    decoding="async">
+</picture>
+
+                  </div>
+                </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <div class="carousel-indicators">
+              
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"  aria-label="Slide 2"></button>
+              
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"  aria-label="Slide 3"></button>
+              
+            </div>
+          </div>
+          <div class="hero-two-banner-shape"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--bookshop-live end-->   <!--bookshop-live name(global/counter/counter.jekyll.html) params(bind=block) context(block=content_blocks[1]) -->
+<section
+  class="counter-up  mb-10"
+  id="counter-up">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-header">
+          <h2>Your Health Is <span>Our Concern</span></h2>
+          <p>Elder is a fast-growing company dedicated to providing high-quality medicines through careful research and modern manufacturing processes. We prioritize quality in all our pharmaceutical products.</p>
+
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="counter-up-wrapper d-grid">
+          
+          <div class="counter-up-content">
+            <div class="counter-up-content-item">
+              <div class="counter-percent">
+                
+                <span class="counter">100</span>
+                
+                <span class="percent">+</span>
+                
+              </div>
+              <p>Products in portfolio</p>
+            </div>
+          </div>
+          
+          <div class="counter-up-content">
+            <div class="counter-up-content-item">
+              <div class="counter-percent">
+                
+                <span class="counter">40</span>
+                
+                <span class="percent">+</span>
+                
+              </div>
+              <p>Years of experience</p>
+            </div>
+          </div>
+          
+          <div class="counter-up-content">
+            <div class="counter-up-content-item">
+              <div class="counter-percent">
+                
+                <span class="counter">50</span>
+                
+                <span class="percent">+</span>
+                
+              </div>
+              <p>Expert team members</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--bookshop-live end-->   <!--bookshop-live name(global/testimonial/testimonial.jekyll.html) params(bind=block) context(block=content_blocks[2]) -->
+<section class="testimonial">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-8 mx-auto text-center mb-5">
+        <div class="testimonial-content">
+          <h2>Products <span> and Categories</span></h2>
+          <p>Our most trusted and widely used pharmaceutical products that make a difference in patients’ lives.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      
+      <div class="col-lg-4 col-md-6 mb-5">
+        <a href="/products?category=tablet" class="testimonial-item-link">
+          <div class="testimonial-item">
+            <div class="testimonial-item-person">
+              <div class="thumb">
+                
+
+
+
+
+
+
+
+
+<picture class="responsive-image">
+  <!-- AVIF format -->
+  <source
+    type="image/avif"
+    srcset="/images/testimonial/tablet-480.avif 480w,
+            /images/testimonial/tablet-800.avif 800w,
+            /images/testimonial/tablet-1400.avif 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- WebP format -->
+  <source
+    type="image/webp"
+    srcset="/images/testimonial/tablet-480.webp 480w,
+            /images/testimonial/tablet-800.webp 800w,
+            /images/testimonial/tablet-1400.webp 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- Original format (fallback) -->
+  <img
+    src="/images/testimonial/tablet.jpg"
+    srcset="/images/testimonial/tablet-480.jpg 480w,
+            /images/testimonial/tablet-800.jpg 800w,
+            /images/testimonial/tablet-1400.jpg 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px"
+    alt="Tablet image"
+    
+    
+    loading="lazy"
+    decoding="async">
+</picture>
+
+              </div>
+              <div class="content">
+                <h4>Tablet</h4>
+                <p>Essential Category</p>
+              </div>
+            </div>
+            <p>Our tablets deliver precise dosing for a wide range of conditions from antibiotics to cardiac and metabolic treatments.</p>
+          </div>
+        </a>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 mb-5">
+        <a href="/products?category=syrup" class="testimonial-item-link">
+          <div class="testimonial-item">
+            <div class="testimonial-item-person">
+              <div class="thumb">
+                
+
+
+
+
+
+
+
+
+<picture class="responsive-image">
+  <!-- AVIF format -->
+  <source
+    type="image/avif"
+    srcset="/images/testimonial/syrup-480.avif 480w,
+            /images/testimonial/syrup-800.avif 800w,
+            /images/testimonial/syrup-1400.avif 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- WebP format -->
+  <source
+    type="image/webp"
+    srcset="/images/testimonial/syrup-480.webp 480w,
+            /images/testimonial/syrup-800.webp 800w,
+            /images/testimonial/syrup-1400.webp 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- Original format (fallback) -->
+  <img
+    src="/images/testimonial/syrup.jpg"
+    srcset="/images/testimonial/syrup-480.jpg 480w,
+            /images/testimonial/syrup-800.jpg 800w,
+            /images/testimonial/syrup-1400.jpg 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px"
+    alt="Syrup"
+    
+    
+    loading="lazy"
+    decoding="async">
+</picture>
+
+              </div>
+              <div class="content">
+                <h4>Syrup</h4>
+                <p>Liquid Medication</p>
+              </div>
+            </div>
+            <p>Our syrups provide easy-to-consume liquid formulations for a wide range of conditions from antibiotics to metabolic treatments.</p>
+          </div>
+        </a>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 mb-5">
+        <a href="/products?category=softgel-capsule" class="testimonial-item-link">
+          <div class="testimonial-item">
+            <div class="testimonial-item-person">
+              <div class="thumb">
+                
+
+
+
+
+
+
+
+
+<picture class="responsive-image">
+  <!-- AVIF format -->
+  <source
+    type="image/avif"
+    srcset="/images/testimonial/softgel-capsule-480.avif 480w,
+            /images/testimonial/softgel-capsule-800.avif 800w,
+            /images/testimonial/softgel-capsule-1400.avif 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- WebP format -->
+  <source
+    type="image/webp"
+    srcset="/images/testimonial/softgel-capsule-480.webp 480w,
+            /images/testimonial/softgel-capsule-800.webp 800w,
+            /images/testimonial/softgel-capsule-1400.webp 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- Original format (fallback) -->
+  <img
+    src="/images/testimonial/softgel-capsule.jpg"
+    srcset="/images/testimonial/softgel-capsule-480.jpg 480w,
+            /images/testimonial/softgel-capsule-800.jpg 800w,
+            /images/testimonial/softgel-capsule-1400.jpg 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px"
+    alt="Softgel Capsules image"
+    
+    
+    loading="lazy"
+    decoding="async">
+</picture>
+
+              </div>
+              <div class="content">
+                <h4>Softgel Capsule</h4>
+                <p>Preventive Healthcare</p>
+              </div>
+            </div>
+            <p>Premium softgel capsules containing essential vitamins, minerals and antioxidants for superior bio-availability and nutritional support.</p>
+          </div>
+        </a>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 mb-5">
+        <a href="/products?category=injection" class="testimonial-item-link">
+          <div class="testimonial-item">
+            <div class="testimonial-item-person">
+              <div class="thumb">
+                
+
+
+
+
+
+
+
+
+<picture class="responsive-image">
+  <!-- AVIF format -->
+  <source
+    type="image/avif"
+    srcset="/images/testimonial/injection-480.avif 480w,
+            /images/testimonial/injection-800.avif 800w,
+            /images/testimonial/injection-1400.avif 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- WebP format -->
+  <source
+    type="image/webp"
+    srcset="/images/testimonial/injection-480.webp 480w,
+            /images/testimonial/injection-800.webp 800w,
+            /images/testimonial/injection-1400.webp 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- Original format (fallback) -->
+  <img
+    src="/images/testimonial/injection.jpg"
+    srcset="/images/testimonial/injection-480.jpg 480w,
+            /images/testimonial/injection-800.jpg 800w,
+            /images/testimonial/injection-1400.jpg 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px"
+    alt="Injection image"
+    
+    
+    loading="lazy"
+    decoding="async">
+</picture>
+
+              </div>
+              <div class="content">
+                <h4>Injection</h4>
+                <p>Fast-Acting Relief</p>
+              </div>
+            </div>
+            <p>Hospital-grade injectable medications that provide rapid therapeutic response for critical infections and acute care situations.</p>
+          </div>
+        </a>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 mb-5">
+        <a href="/products?category=dry-syrup" class="testimonial-item-link">
+          <div class="testimonial-item">
+            <div class="testimonial-item-person">
+              <div class="thumb">
+                
+
+
+
+
+
+
+
+
+<picture class="responsive-image">
+  <!-- AVIF format -->
+  <source
+    type="image/avif"
+    srcset="/images/testimonial/dry-syrup-480.avif 480w,
+            /images/testimonial/dry-syrup-800.avif 800w,
+            /images/testimonial/dry-syrup-1400.avif 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- WebP format -->
+  <source
+    type="image/webp"
+    srcset="/images/testimonial/dry-syrup-480.webp 480w,
+            /images/testimonial/dry-syrup-800.webp 800w,
+            /images/testimonial/dry-syrup-1400.webp 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- Original format (fallback) -->
+  <img
+    src="/images/testimonial/dry-syrup.jpg"
+    srcset="/images/testimonial/dry-syrup-480.jpg 480w,
+            /images/testimonial/dry-syrup-800.jpg 800w,
+            /images/testimonial/dry-syrup-1400.jpg 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px"
+    alt="Dry Syrup image"
+    
+    
+    loading="lazy"
+    decoding="async">
+</picture>
+
+              </div>
+              <div class="content">
+                <h4>Dry Syrup</h4>
+                <p>Pediatric Care</p>
+              </div>
+            </div>
+            <p>Child-friendly antibiotic formulations in powder form for reconstitution, offering precise dosing and improved compliance for young patients.</p>
+          </div>
+        </a>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 mb-5">
+        <a href="/products?category=eye-drop" class="testimonial-item-link">
+          <div class="testimonial-item">
+            <div class="testimonial-item-person">
+              <div class="thumb">
+                
+
+
+
+
+
+
+
+
+<picture class="responsive-image">
+  <!-- AVIF format -->
+  <source
+    type="image/avif"
+    srcset="/images/testimonial/drop-480.avif 480w,
+            /images/testimonial/drop-800.avif 800w,
+            /images/testimonial/drop-1400.avif 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- WebP format -->
+  <source
+    type="image/webp"
+    srcset="/images/testimonial/drop-480.webp 480w,
+            /images/testimonial/drop-800.webp 800w,
+            /images/testimonial/drop-1400.webp 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- Original format (fallback) -->
+  <img
+    src="/images/testimonial/drop.jpg"
+    srcset="/images/testimonial/drop-480.jpg 480w,
+            /images/testimonial/drop-800.jpg 800w,
+            /images/testimonial/drop-1400.jpg 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px"
+    alt="Eye Drop image"
+    
+    
+    loading="lazy"
+    decoding="async">
+</picture>
+
+              </div>
+              <div class="content">
+                <h4>Eye Drop</h4>
+                <p>Specialized Care</p>
+              </div>
+            </div>
+            <p>Sterile ophthalmic solutions formulated to treat various eye conditions from infections to dryness with precision and comfort.</p>
+          </div>
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!--bookshop-live end-->   <!--bookshop-live name(global/header/header.jekyll.html) params(bind=block) context(block=content_blocks[3]) -->
+<section class="feature pt-0 pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div
+          class="section-header @@disply"
+          >
+          <h2>Why Choose <span>Elder</span></h2>
+          <p>We ensure our operations follow the highest quality standards and regulations set by international authorities. Our success is built on quality products and dedicated professionals.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--bookshop-live end-->   <!--bookshop-live name(global/feature/feature.jekyll.html) params(bind=block) context(block=content_blocks[4]) -->
+<section class="feature pt-sm-10 pt-5 pb-4">
+  <div class="container">
+    
+    <div class="row align-items-center">
+      <div class="col-lg-6 order-2 order-lg-1">
+        <div class="feature-item-content mb-xl-15 mb-md-10 mb-7 ps-xxl-8 ps-0">
+          <h2 class="pe-xl-0">Quality Assurance</h2>
+          <p>Our dedicated team ensures every medicine meets the highest quality standards. We focus on safety, effectiveness, and consistency in all our products.</p>
+
+          <div class="Learn-more">
+            <a href="/about" class="">
+              Learn More
+              <i class="ph-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 order-1 order-lg-2">
+        <div class="feature-item-banner mb-sm-8 mb-lg-10 mb-xxl-15 mb-7">
+          <div class="card-image">
+            
+
+
+
+
+
+
+
+
+<picture class="responsive-image">
+  <!-- AVIF format -->
+  <source
+    type="image/avif"
+    srcset="/images/feature/quality-control-480.avif 480w,
+            /images/feature/quality-control-800.avif 800w,
+            /images/feature/quality-control-1400.avif 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- WebP format -->
+  <source
+    type="image/webp"
+    srcset="/images/feature/quality-control-480.webp 480w,
+            /images/feature/quality-control-800.webp 800w,
+            /images/feature/quality-control-1400.webp 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- Original format (fallback) -->
+  <img
+    src="/images/feature/quality-control.jpg"
+    srcset="/images/feature/quality-control-480.jpg 480w,
+            /images/feature/quality-control-800.jpg 800w,
+            /images/feature/quality-control-1400.jpg 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px"
+    alt="Quality control laboratory"
+    
+    
+    loading="lazy"
+    decoding="async">
+</picture>
+
+          </div>
+          <div class="effect-two">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<!--bookshop-live end-->   <!--bookshop-live name(global/feature/feature.jekyll.html) params(bind=block) context(block=content_blocks[5]) -->
+<section class="feature pt-sm-10 pt-5 pb-4">
+  <div class="container">
+    
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="feature-item-banner mb-sm-8 mb-lg-10 mb-xxl-15 mb-7">
+          <div class="card-image">
+            
+
+
+
+
+
+
+
+
+<picture class="responsive-image">
+  <!-- AVIF format -->
+  <source
+    type="image/avif"
+    srcset="/images/feature/feature-card-two-480.avif 480w,
+            /images/feature/feature-card-two-800.avif 800w,
+            /images/feature/feature-card-two-1400.avif 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- WebP format -->
+  <source
+    type="image/webp"
+    srcset="/images/feature/feature-card-two-480.webp 480w,
+            /images/feature/feature-card-two-800.webp 800w,
+            /images/feature/feature-card-two-1400.webp 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- Original format (fallback) -->
+  <img
+    src="/images/feature/feature-card-two.jpg"
+    srcset="/images/feature/feature-card-two-480.jpg 480w,
+            /images/feature/feature-card-two-800.jpg 800w,
+            /images/feature/feature-card-two-1400.jpg 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px"
+    alt="Medicine availability"
+    
+    
+    loading="lazy"
+    decoding="async">
+</picture>
+
+          </div>
+          <div class="effect-one">
+            <img
+              src="/images/feature/effect-1.png"
+              alt="effect-image"
+              loading="lazy" />
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="feature-item-content mb-xl-15 mb-md-10 mb-7 ps-xxl-8 ps-0">
+          <h2>Wide Product Availability</h2>
+          <p>We maintain high inventory levels to ensure our medicines are always available when needed. Our distribution network covers hospitals, clinics, and pharmacies nationwide.</p>
+
+          <div class="Learn-more">
+            <a href="/products" class="">
+              View Products
+              <i class="ph-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<!--bookshop-live end-->   <!--bookshop-live name(global/feature/feature.jekyll.html) params(bind=block) context(block=content_blocks[6]) -->
+<section class="feature pt-sm-10 pt-5 pb-4">
+  <div class="container">
+    
+    <div class="row align-items-center">
+      <div class="col-lg-6 order-2 order-lg-1">
+        <div class="feature-item-content mb-xl-15 mb-md-10 mb-7 ps-xxl-8 ps-0">
+          <h2 class="pe-xl-0">Global Accessibility</h2>
+          <p>We work with trusted distribution partners worldwide to make our high-quality medicines accessible to patients everywhere.</p>
+
+          <div class="Learn-more">
+            <a href="/contact" class="">
+              Contact Us
+              <i class="ph-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 order-1 order-lg-2">
+        <div class="feature-item-banner mb-sm-8 mb-lg-10 mb-xxl-15 mb-7">
+          <div class="card-image">
+            
+
+
+
+
+
+
+
+
+<picture class="responsive-image">
+  <!-- AVIF format -->
+  <source
+    type="image/avif"
+    srcset="/images/feature/feature-card-three-480.avif 480w,
+            /images/feature/feature-card-three-800.avif 800w,
+            /images/feature/feature-card-three-1400.avif 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- WebP format -->
+  <source
+    type="image/webp"
+    srcset="/images/feature/feature-card-three-480.webp 480w,
+            /images/feature/feature-card-three-800.webp 800w,
+            /images/feature/feature-card-three-1400.webp 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- Original format (fallback) -->
+  <img
+    src="/images/feature/feature-card-three.jpg"
+    srcset="/images/feature/feature-card-three-480.jpg 480w,
+            /images/feature/feature-card-three-800.jpg 800w,
+            /images/feature/feature-card-three-1400.jpg 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px"
+    alt="Global presence"
+    
+    
+    loading="lazy"
+    decoding="async">
+</picture>
+
+          </div>
+          <div class="effect-two">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<!--bookshop-live end--> 
+</main>
+
+<!--bookshop-live end--> 
+<footer class="footer pt-xxl-19 pt-8 pb-sm-7 pb-5" id="footer">
+   <div class="container-fluid">
+      <div class="footer-wrapper">
+         <div class="row">
+            <div class="col-12 col-lg-4 me-auto order-2 order-lg-1">
+               <div class="footer-logo mt-7 mt-md-0">
+                  <a href="/" class="">
+                     
+
+
+
+
+
+
+
+
+<picture class="responsive-image">
+  <!-- AVIF format -->
+  <source
+    type="image/avif"
+    srcset="/images/footer-logo-480.avif 480w,
+            /images/footer-logo-800.avif 800w,
+            /images/footer-logo-1400.avif 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- WebP format -->
+  <source
+    type="image/webp"
+    srcset="/images/footer-logo-480.webp 480w,
+            /images/footer-logo-800.webp 800w,
+            /images/footer-logo-1400.webp 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px">
+
+  <!-- Original format (fallback) -->
+  <img
+    src="/images/footer-logo.jpg"
+    srcset="/images/footer-logo-480.jpg 480w,
+            /images/footer-logo-800.jpg 800w,
+            /images/footer-logo-1400.jpg 1400w"
+    sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1400px"
+    alt="logo"
+    
+    
+    loading="lazy"
+    decoding="async">
+</picture>
+
+                  </a>
+                  <p class="">
+                     Copyright 2026 Elder Marketing & Research Private Limited, All rights reserved!
+                  </p>
+               </div>
+               <div class="social-icon">
+                  <ul class="list-unstyled">
+                     
+                     <li>
+                        <a href="https://www.facebook.com/people/Elder-Marketing-and-Research-Private-Limited/61581400721090/"> <i class="ph-facebook-logo" aria-hidden="true"></i><span class="visually-hidden">Facebook</span></a>
+                     </li>
+                     
+                     <li>
+                        <a href="https://www.instagram.com/elder.pharma/"> <i class="ph-instagram-logo" aria-hidden="true"></i><span class="visually-hidden">Instagram</span></a>
+                     </li>
+                     
+                     <li>
+                        <a href="https://www.linkedin.com/company/elder-pharmaceutical/"> <i class="ph-linkedin-logo" aria-hidden="true"></i><span class="visually-hidden">LinkedIn</span></a>
+                     </li>
+                     
+                  </ul>
+               </div>
+            </div>
+            
+            <div class="col-6 col-md-3 col-lg-2 order-1">
+               <div class="footer-widget">
+                  <h3>Main Pages</h3>
+                  <ul class="list-unstyled">
+                     
+                     <li>
+                        <a href="/">Home</a>
+                     </li>
+                     
+                     <li>
+                        <a href="/about">About Us</a>
+                     </li>
+                     
+                     <li>
+                        <a href="/products">Products</a>
+                     </li>
+                     
+                     <li>
+                        <a href="/contact">Contact Us</a>
+                     </li>
+                     
+                  </ul>
+               </div>
+            </div>
+            
+            <div class="col-6 col-md-3 col-lg-2 order-1">
+               <div class="footer-widget">
+                  <h3>Company</h3>
+                  <ul class="list-unstyled">
+                     
+                     <li>
+                        <a href="/privacy">Privacy Policy</a>
+                     </li>
+                     
+                  </ul>
+               </div>
+            </div>
+            
+         </div>
+      </div>
+   </div>
+</footer>
+<!-- Core JS files -->
+<script src="/vendor/jQuery/jquery.min.js" defer></script>
+<script src="/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+
+<!-- Secondary JS files loaded with lower priority -->
+<script src="/vendor/waypoints/waypoints.min.js" defer></script>
+<script src="/vendor/magnific-popup/magnific-popup.min.js" defer></script>
+<script src="/js/script.js" defer></script>
+
+<!-- Product Data Module - Used by product related pages -->
+
+
+
+
+</body>
+</html>
