@@ -1,0 +1,308 @@
+# Logos for the home page product logo rail (extracted from Reminder.pdf).
+# url points to the product page, or /products/ when the product has no page.
+- image: /images/product-logos/azeeder-200.webp
+  alt: "Azeeder-200"
+  url: /product/azeeder-200/
+- image: /images/product-logos/azeeder-250-500.webp
+  alt: "Azeeder-250/500"
+  url: /product/azeeder-250/
+- image: /images/product-logos/becloder-nc.webp
+  alt: "Becloder-NC"
+  url: /product/becloder-nc/
+- image: /images/product-logos/bellvita-powder.webp
+  alt: "Bellvita Powder"
+  url: /product/belvita-powder/
+- image: /images/product-logos/bellvita-syrup.webp
+  alt: "Bellvita Syrup"
+  url: /product/belvita-syrups/
+- image: /images/product-logos/bellvita-drops.webp
+  alt: "Bellvita Drops"
+  url: /product/belvita-drops/
+- image: /images/product-logos/bacider.webp
+  alt: "Bacider"
+  url: /product/bacider/
+- image: /images/product-logos/coldkil.webp
+  alt: "Coldkil"
+  url: /product/coldkil/
+- image: /images/product-logos/cypoder.webp
+  alt: "Cypoder"
+  url: /product/cypoder/
+- image: /images/product-logos/cherider-am.webp
+  alt: "Cherider-AM"
+  url: /product/cherider-am/
+- image: /images/product-logos/cherider-ls-junior.webp
+  alt: "Cherider-LS/Junior"
+  url: /product/cherider-ls/
+- image: /images/product-logos/carider-plus.webp
+  alt: "Carider-PLUS"
+  url: /product/carider-plus-tablet/
+- image: /images/product-logos/cherider-dx.webp
+  alt: "Cherider-DX"
+  url: /product/cherider-dx/
+- image: /images/product-logos/cefi-pex-o.webp
+  alt: "Cefi-Pex O"
+  url: /product/cefi-pex-o/
+- image: /images/product-logos/ceepone-sb.webp
+  alt: "Ceepone-SB"
+  url: /product/ceepeone-sb/
+- image: /images/product-logos/ceetzo-sb-1-5.webp
+  alt: "Ceetzo-SB 1.5"
+  url: /product/ceetzo-sb-1-5/
+- image: /images/product-logos/ceetzo.webp
+  alt: "Ceetzo 1g"
+  url: /product/ceetzo-1g/
+- image: /images/product-logos/cefi-pex-200.webp
+  alt: "Cefi-Pex 200"
+  url: /product/cefi-pex-200/
+- image: /images/product-logos/cefi-pex-lb-200.webp
+  alt: "Cefi-Pex LB 200"
+  url: /product/cefi-pex-lb-200/
+- image: /images/product-logos/cortider-6.webp
+  alt: "Cortider-6"
+  url: /product/cortider-6/
+- image: /images/product-logos/dicloder-aq.webp
+  alt: "Dicloder-AQ"
+  url: /product/dicloder-aq/
+- image: /images/product-logos/dicloder-gel.webp
+  alt: "Dicloder Gel"
+  url: /product/dicloder-gel/
+- image: /images/product-logos/dicloder-s.webp
+  alt: "Dicloder-S"
+  url: /product/dicloder-s/
+- image: /images/product-logos/doxder-lb.webp
+  alt: "Doxder-LB"
+  url: /product/doxder-lb/
+- image: /images/product-logos/elcotum.webp
+  alt: "Elcotum-CV/500"
+  url: /product/elcotum-500/
+- image: /images/product-logos/elmocin-cv-625.webp
+  alt: "Elmocin-CV 625"
+  url: /product/elmocin-cv-625/
+- image: /images/product-logos/eldozin-m.webp
+  alt: "Eldozin M"
+  url: /product/eldozin-m/
+- image: /images/product-logos/elfexozin-120-180.webp
+  alt: "Elfexozin 120/180"
+  url: /product/elfexozin-120/
+- image: /images/product-logos/eldobrain.webp
+  alt: "Eldobrain"
+  url: /product/eldobrain/
+- image: /images/product-logos/eldofin-plus.webp
+  alt: "Eldofin-Plus"
+  url: /product/eldofin-plus/
+- image: /images/product-logos/eldoraft.webp
+  alt: "Eldoraft"
+  url: /product/eldoraft/
+- image: /images/product-logos/elfexozin-m.webp
+  alt: "Elfexozin-M"
+  url: /product/elfexozin-m/
+- image: /images/product-logos/elitra.webp
+  alt: "Elitra-100/200"
+  url: /product/elitra-100/
+- image: /images/product-logos/eldova-care.webp
+  alt: "Eldova-Care"
+  url: /product/eldova-care/
+- image: /images/product-logos/eldomol-650.webp
+  alt: "Eldomol-650"
+  url: /product/eldomol-650/
+- image: /images/product-logos/eldomol-120-250.webp
+  alt: "Eldomol-120/250"
+  url: /product/eldomol-250/
+- image: /images/product-logos/elmozid-1000.webp
+  alt: "Elmozid-1000"
+  url: /product/elmozid-1000/
+- image: /images/product-logos/esotel.webp
+  alt: "Esotel DSR/LSR"
+  url: /product/esotel-dsr/
+- image: /images/product-logos/elogene-gel.webp
+  alt: "Elogene-Gel"
+  url: /product/elogene-gel/
+- image: /images/product-logos/eldomol-m-ds.webp
+  alt: "Eldomol-M/DS"
+  url: /product/eldomol-m-ds/
+- image: /images/product-logos/elocox.webp
+  alt: "Elocox-90/TH"
+  url: /products/
+- image: /images/product-logos/elbela-m.webp
+  alt: "Elbela-M"
+  url: /product/elbela-m/
+- image: /images/product-logos/empoder-m.webp
+  alt: "Empoder-M"
+  url: /product/empoder-m/
+- image: /images/product-logos/eluter.webp
+  alt: "Eluter"
+  url: /product/eluter/
+- image: /images/product-logos/elprogut.webp
+  alt: "Elprogut"
+  url: /product/elprogut/
+- image: /images/product-logos/elozyme.webp
+  alt: "Elozyme"
+  url: /product/elozyme/
+- image: /images/product-logos/elfored-xt.webp
+  alt: "Elfored-XT"
+  url: /product/elfored-xt-tablet/
+- image: /images/product-logos/eluzole-cream.webp
+  alt: "Eluzole Cream"
+  url: /product/eluzole-cream/
+- image: /images/product-logos/eluzole-soap.webp
+  alt: "Eluzole Soap"
+  url: /product/eluzole-soap/
+- image: /images/product-logos/fertider-m.webp
+  alt: "Fertider-M"
+  url: /product/fertider-m/
+- image: /images/product-logos/farotest-200.webp
+  alt: "Farotest-200"
+  url: /product/farofest-200/
+- image: /images/product-logos/glutoder-soap.webp
+  alt: "Glutoder Soap"
+  url: /product/glutoder/
+- image: /images/product-logos/glutoder-cream.webp
+  alt: "Glutoder Cream"
+  url: /product/glutoder-cream/
+- image: /images/product-logos/glutoder-tablet.webp
+  alt: "Glutoder Tablets"
+  url: /product/glutoder-tablet/
+- image: /images/product-logos/gestoder.webp
+  alt: "Gestoder/PG 200"
+  url: /product/gestoder/
+- image: /images/product-logos/grovital.webp
+  alt: "Grovital"
+  url: /product/grovital/
+- image: /images/product-logos/glyzer.webp
+  alt: "Glyzer-M1/2"
+  url: /product/glyzer-m1/
+- image: /images/product-logos/hair-soon.webp
+  alt: "Hair Soon"
+  url: /product/hair-soon/
+- image: /images/product-logos/immuder.webp
+  alt: "Immuder"
+  url: /product/immuder/
+- image: /images/product-logos/it-derm.webp
+  alt: "IT-DERM"
+  url: /product/it-derm/
+- image: /images/product-logos/ketoder.webp
+  alt: "Ketoder"
+  url: /product/ketoder-soap/
+- image: /images/product-logos/lycopearl.webp
+  alt: "Lycopearl"
+  url: /product/lycopearl/
+- image: /images/product-logos/liv-der.webp
+  alt: "Liv-Der"
+  url: /product/liv-der/
+- image: /images/product-logos/lizoder-600.webp
+  alt: "Lizoder-600"
+  url: /product/lizoder-600/
+- image: /images/product-logos/merofly-1gm.webp
+  alt: "Merofly-1gm"
+  url: /product/merofly-1gm/
+- image: /images/product-logos/mupicon.webp
+  alt: "Mupicon"
+  url: /product/mupicon/
+- image: /images/product-logos/micader-500.webp
+  alt: "Micader-500"
+  url: /product/micader-500/
+- image: /images/product-logos/metsim-o.webp
+  alt: "Metsim-O"
+  url: /product/metsim-o/
+- image: /images/product-logos/nicoder-5.webp
+  alt: "Nicoder 5"
+  url: /product/nicoder-5/
+- image: /images/product-logos/nervoder.webp
+  alt: "Nervoder"
+  url: /product/nervoder/
+- image: /images/product-logos/nimovex-p.webp
+  alt: "Nimovex-P"
+  url: /product/nimovex-p/
+- image: /images/product-logos/offder-d.webp
+  alt: "Offder-D"
+  url: /product/offder-d/
+- image: /images/product-logos/ondue.webp
+  alt: "Ondue-4"
+  url: /product/ondue-4/
+- image: /images/product-logos/permider-soap.webp
+  alt: "Permider Soap"
+  url: /product/permider/
+- image: /images/product-logos/pexorab.webp
+  alt: "Pexorab-20/DSR"
+  url: /product/pexorab-20/
+- image: /images/product-logos/pansearch-40.webp
+  alt: "Pansearch 40"
+  url: /product/pansearch-40/
+- image: /images/product-logos/pipder-4-5.webp
+  alt: "Pipder-4.5"
+  url: /product/pipder-4-5/
+- image: /images/product-logos/pexoran.webp
+  alt: "Pexoran-P/SP/MR"
+  url: /product/pexoran-p/
+- image: /images/product-logos/pex-pod-200.webp
+  alt: "Pex-Pod 200"
+  url: /product/pex-pod-200/
+- image: /images/product-logos/pexoran-tch.webp
+  alt: "Pexoran-TCH"
+  url: /product/pexoran-tch/
+- image: /images/product-logos/pexorab-iv.webp
+  alt: "Pexorab-IV"
+  url: /product/pexorab-iv/
+- image: /images/product-logos/pex-pod-cv.webp
+  alt: "Pex-Pod-CV"
+  url: /product/pex-pod-cv/
+- image: /images/product-logos/pyroder-df.webp
+  alt: "Pyroder-DF"
+  url: /product/pyroder-df/
+- image: /images/product-logos/pex-pod-50.webp
+  alt: "Pex-Pod 50"
+  url: /product/pex-pod-50/
+- image: /images/product-logos/rangicare-500.webp
+  alt: "Rangicare-500"
+  url: /product/rangicare-500/
+- image: /images/product-logos/pansearch-lsr-dsr.webp
+  alt: "Pansearch LSR/DSR"
+  url: /product/pansearch-lsr/
+- image: /images/product-logos/permider-lotion.webp
+  alt: "Permider Lotion"
+  url: /product/permider-lotion/
+- image: /images/product-logos/sreekal-xt.webp
+  alt: "Sreekal-XT"
+  url: /product/sreekal-xt/
+- image: /images/product-logos/sreekal-forte.webp
+  alt: "Sreekal-Forte"
+  url: /product/sreekal-forte/
+- image: /images/product-logos/sreekal.webp
+  alt: "Sreekal"
+  url: /product/sreekal/
+- image: /images/product-logos/sucrader-o.webp
+  alt: "Sucrader-O"
+  url: /product/sucrader-o/
+- image: /images/product-logos/sreekal-500.webp
+  alt: "Sreekal-500"
+  url: /product/sreeekal-500/
+- image: /images/product-logos/sreekal-d3.webp
+  alt: "Sreekal-D3"
+  url: /product/sreekal-d3/
+- image: /images/product-logos/sreekal-d3-nano.webp
+  alt: "Sreekal-D3 Nano Shots"
+  url: /product/sreekal-d3-nano/
+- image: /images/product-logos/sreekal-ct.webp
+  alt: "Sreekal-CT"
+  url: /product/sreeekal-ct/
+- image: /images/product-logos/telmored-am.webp
+  alt: "Telmored-AM"
+  url: /product/telmored-am/
+- image: /images/product-logos/telmored-40.webp
+  alt: "Telmored-40"
+  url: /product/telmored-40/
+- image: /images/product-logos/ursolder-300.webp
+  alt: "Ursolder-300"
+  url: /product/ursolder-300/
+- image: /images/product-logos/wellbion-syrup.webp
+  alt: "Wellbion Syrup"
+  url: /product/wellbion-syrup/
+- image: /images/product-logos/washodent.webp
+  alt: "Washodent"
+  url: /product/washodent/
+- image: /images/product-logos/wormider-plus.webp
+  alt: "Wormider-Plus"
+  url: /product/wormider-plus/
+- image: /images/product-logos/wellbion-12.webp
+  alt: "Wellbion-12"
+  url: /product/wellbion-12/

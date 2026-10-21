@@ -1,0 +1,77 @@
+/**********
+ Logo Rail: auto-scrolling rows of product logos
+**********/
+.logo-rail {
+   padding: 40px 0 60px;
+   overflow: hidden;
+   &-row {
+      overflow: hidden;
+      margin-top: 18px;
+      -webkit-mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);
+      mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);
+   }
+   &-track {
+      display: flex;
+      width: max-content;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      // ~3.2s per logo keeps the pace readable regardless of row length
+      animation: logo-rail-scroll calc(var(--logo-count) * 3.2s) linear infinite;
+      li {
+         flex: 0 0 auto;
+         margin: 0 12px;
+         padding: 10px 14px;
+         background: #fff;
+         border: 1px solid rgba(0, 0, 0, 0.08);
+         border-radius: 10px;
+         transition: box-shadow 0.2s ease, transform 0.2s ease;
+         &:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+         }
+      }
+      a {
+         display: flex;
+         align-items: center;
+         height: 72px;
+      }
+      img {
+         display: block;
+         height: 72px;
+         width: auto;
+         max-width: 260px;
+         object-fit: contain;
+      }
+   }
+   &-row:hover &-track {
+      animation-play-state: paused;
+   }
+   &-row-reverse &-track {
+      animation-direction: reverse;
+   }
+   @media (max-width: 767px) {
+      padding: 24px 0 40px;
+      &-track img,
+      &-track a {
+         height: 56px;
+      }
+   }
+   @media (prefers-reduced-motion: reduce) {
+      &-track {
+         animation: none;
+      }
+      &-row {
+         overflow-x: auto;
+      }
+   }
+}
+
+@keyframes logo-rail-scroll {
+   from {
+      transform: translateX(0);
+   }
+   to {
+      transform: translateX(-50%);
+   }
+}

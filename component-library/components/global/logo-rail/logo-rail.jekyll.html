@@ -1,0 +1,30 @@
+{% assign logos = site.data.product_logos %}
+{% assign half = logos.size | plus: 1 | divided_by: 2 %}
+<section class="logo-rail">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-header">
+          <h2>{{ include.title }} <span>{{ include.title_suffix }}</span></h2>
+          {{ include.description | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% for row in (1..2) %}
+  {% if row == 1 %}{% assign row_logos = logos | slice: 0, half %}{% else %}{% assign row_logos = logos | slice: half, logos.size %}{% endif %}
+  <div class="logo-rail-row{% if row == 2 %} logo-rail-row-reverse{% endif %}" style="--logo-count: {{ row_logos.size }}">
+    <ul class="logo-rail-track">
+      {% for pass in (1..2) %}
+      {% for logo in row_logos %}
+      <li{% if pass == 2 %} aria-hidden="true"{% endif %}>
+        <a href="{{ logo.url }}"{% if pass == 2 %} tabindex="-1"{% endif %}>
+          <img src="{{ logo.image }}" alt="{{ logo.alt }}" height="72" loading="lazy" decoding="async">
+        </a>
+      </li>
+      {% endfor %}
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</section>
