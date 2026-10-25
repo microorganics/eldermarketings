@@ -1,7 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /vendor/
 Disallow: /admin/
-Disallow: /css/
 
 Sitemap: https://eldermarketings.com/sitemap.xml
