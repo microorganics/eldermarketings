@@ -7,7 +7,7 @@ seo:
   featured_image: 
   author_twitter_handle: 
   open_graph_type: article
-  no_index: false
+  noindex: true
 layout: blog-single
 tags:
   - blog

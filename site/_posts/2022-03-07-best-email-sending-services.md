@@ -17,7 +17,7 @@ seo:
   featured_image: /images/blog/featured-image-5.jpg
   author_twitter_handle: 
   open_graph_type: article
-  noindex: false
+  noindex: true
 layout: blog-single
 permalink: /blog/best-email-sending-services
 ---

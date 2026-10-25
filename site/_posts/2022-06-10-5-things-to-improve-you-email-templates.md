@@ -17,7 +17,7 @@ seo:
   featured_image: /images/blog/featured-image-2.jpg
   author_twitter_handle: 
   open_graph_type: article
-  noindex: false
+  noindex: true
 layout: blog-single
 permalink: /blog/5-things-to-improve-you-email-templates
 ---

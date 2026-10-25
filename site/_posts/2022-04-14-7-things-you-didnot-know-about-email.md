@@ -17,7 +17,7 @@ seo:
   featured_image: /images/blog/featured-image-3.jpg
   author_twitter_handle: 
   open_graph_type: article
-  noindex: false
+  noindex: true
 layout: blog-single
 permalink: /blog/7-things-you-didnot-know-about-email
 ---

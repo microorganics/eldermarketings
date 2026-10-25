@@ -23,6 +23,15 @@ module Jekyll
 
       products = data["products"] || []
 
+      # Same-named products (e.g. a capsule and a dry syrup) get the category in
+      # their title so no two product pages share a <title>. Every product also
+      # gets a descriptive image alt used by the detail page, listing and related cards.
+      name_counts = products.each_with_object(Hash.new(0)) { |p, h| h[p["name"]] += 1 }
+      products.each do |p|
+        p["display_name"] = name_counts[p["name"]] > 1 ? "#{p["name"]} (#{p["category"]})" : p["name"]
+        p["alt"] = "#{p["display_name"]} - #{p["description"]}".strip[0, 160]
+      end
+
       products.each do |product|
         slug = product["slug"]
         next if slug.nil? || slug.to_s.strip.empty?
@@ -34,7 +43,7 @@ module Jekyll
         page = PageWithoutAFile.new(site, site.source, File.join("product", slug), "index.html")
         page.content = ""
         page.data["layout"] = "product"
-        page.data["title"] = product["name"]
+        page.data["title"] = product["display_name"]
         page.data["product"] = product
         page.data["related_products"] = related
         page.data["seo"] = {

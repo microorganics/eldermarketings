@@ -74,7 +74,7 @@
       {% endif %}
 
       {% comment %} Add robots no index {% endcomment %}
-      {% if page.seo.noindex %}
+      {% if page.seo.noindex or page.type == 'tag' %}
          <meta name="robots" content="noindex">
          <meta name="googlebot" content="noindex">
       {% endif %}

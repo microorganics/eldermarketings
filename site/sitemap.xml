@@ -8,7 +8,7 @@ layout: null
     {% assign collection_docs = site.documents %}
     {% assign all_pages = site.html_pages | concat: collection_docs %}
     {%- for item in all_pages %}
-        {% unless item.seo.noindex %}
+        {% unless item.seo.noindex or item.type == 'tag' %}
             <url>
                 <loc>{{ site.data.site.BaseURL }}{{ item.url | url }}</loc>
                 <lastmod>{% if item.date %}{{ item.date | date: '%Y-%m-%d' }}{% else %}{{ site.time | date: '%Y-%m-%d' }}{% endif %}</lastmod>
