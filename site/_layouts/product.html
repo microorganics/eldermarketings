@@ -15,7 +15,7 @@ layout: base
         <div class="product-details">
           <h1 id="product-name">{{ product.display_name }}</h1>
           <div class="product-meta mb-4">
-            <p class="product-category" id="product-category">Category: <span>{{ product.category }}</span></p>
+            <p class="product-category" id="product-category">Category: <a href="{{ product.category_url }}"><span>{{ product.category }}</span></a></p>
             <div class="price-container">
               <p class="product-price">MRP: <span id="product-price">₹{{ product.price }}</span></p>
             </div>
@@ -83,5 +83,18 @@ layout: base
     "price": "{{ product.price }}",
     "availability": "https://schema.org/InStock"
   }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ base }}/" },
+    { "@type": "ListItem", "position": 2, "name": "Products", "item": "{{ base }}/products/" },
+    { "@type": "ListItem", "position": 3, "name": {{ product.category | jsonify }}, "item": "{{ base }}{{ product.category_url }}" },
+    { "@type": "ListItem", "position": 4, "name": {{ product.display_name | jsonify }}, "item": "{{ base }}{{ page.url }}" }
+  ]
 }
 </script>

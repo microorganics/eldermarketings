@@ -11,7 +11,7 @@ layout: null
         {% unless item.seo.noindex or item.type == 'tag' %}
             <url>
                 <loc>{{ site.data.site.BaseURL }}{{ item.url | url }}</loc>
-                <lastmod>{% if item.date %}{{ item.date | date: '%Y-%m-%d' }}{% else %}{{ site.time | date: '%Y-%m-%d' }}{% endif %}</lastmod>
+                {%- if item.date %}<lastmod>{{ item.date | date: '%Y-%m-%d' }}</lastmod>{% endif %}
                 <changefreq>{% if item.seo.change_frequency %}{{ item.seo.change_frequency }}{% else %}monthly{% endif %}</changefreq>
                 <priority>{% if item.seo.priority %}{{ item.seo.priority }}{% elsif item.url == "/" %}1.0{% else %}0.8{% endif %}</priority>
                 {%- if item.product %}
